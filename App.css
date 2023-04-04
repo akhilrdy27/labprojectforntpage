@@ -1,0 +1,59 @@
+/*
+ .home {
+  /*background-image: url('./nitr.png'); 
+  background-size: cover;
+  background-position: center;
+
+  height: 100vh;
+  display: flex; 
+   flex-direction: column;
+   justify-content: center;
+   align-items: center; 
+} 
+
+h1 {
+  color: rgb(27, 152, 225);
+  font-size: 3rem;
+  text-shadow: 1px 1px 1px #000;
+}
+
+
+div {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+a {
+  color: #333;
+}
+*/
+
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  background: url('./nitr.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.container {
+  max-width: 100%;
+}
+
+.home, .about, .contact {
+  padding: 20px;
+  color: rgb(244, 237, 241);
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+h1{
+  text-align: right;
+
+}
